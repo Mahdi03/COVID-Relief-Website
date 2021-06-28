@@ -1,0 +1,123 @@
+/****************************************Global Styles*************************************/
+
+@import url('https://fonts.googleapis.com/css?family=Candal');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+    background-color: #ffad33;
+}
+
+p {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    font-size: 18px;
+}
+
+
+/******************************************index.html***********************************************/
+
+.container {
+    font-family: 'Oswald', sans-serif;
+    background-color: #ff9933;
+    margin: 0 auto;
+    width: 70%;
+    /*padding-top: 3rem;*/
+    padding-bottom: 1.5rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+.container .center {
+    text-align: center;
+}
+
+.imageBanner {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.imageBanner img {
+    width: auto;
+    height: 180px;
+}
+
+
+/*navbar*/
+
+.navbar-default {
+    border: none;
+}
+
+nav li,
+.navbar-brand {
+    font-family: 'Oswald', sans-serif;
+    border: 1px solid #ffcc66;
+}
+
+nav li:hover,
+.navbar-brand:hover {
+    border: 1px solid #ff9933;
+    transition: 0.3s;
+}
+
+.active {
+    background-color: #ff9933 !important;
+}
+
+
+/*end navbar*/
+
+
+/*****************************vaccinefacts.html**************************/
+
+.imageLogo {
+    max-width: 10%;
+    transform: scale(1);
+    transition: 0.35s;
+}
+
+.imageLogo:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+.lightBlue {
+    color: #4b88a2;
+}
+
+
+/*
+h3 {
+    color: blue;
+}
+
+h3 {
+    color: palegoldenrod;
+}*/
+
+
+/******************************************mentalhealthresources.html************************************************/
+
+.light {
+    background-color: palegoldenrod;
+    margin-top: 20px;
+}
+
+.center {
+    text-align: center;
+}
+
+.mentalHealthLink {
+    font-size: 15pt;
+    color: #00008B;
+}
+
+.icon {
+    width: 40px;
+    height: 45px;
+    object-fit: scale-down;
+}
